@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kiger | The Intelligence Layer for Global Trade</title>
+
+  <meta
+    name="description"
+    content="Build a trusted Golden Record for every cross-border shipment and catch documentation issues before they become costly delays."
+  />
+
+  <meta
+    name="keywords"
+    content="trade, logistics, customs, cross-border, shipment, supply chain, compliance, AI, Golden Record"
+  />
+
+  <meta name="author" content="Kiger" />
+  <meta name="robots" content="index,follow" />
+
+  <link rel="canonical" href="https://kiger.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kiger" />
+  <meta property="og:url" content="https://kiger.io/" />
+  <meta property="og:title" content="Kiger | The Intelligence Layer for Global Trade" />
+  <meta
+    property="og:description"
+    content="Build a trusted Golden Record for every cross-border shipment."
+  />
+  <meta
+    property="og:image"
+    content="https://obedvega.github.io/tfi-landing-page/kiger-logo.svg"
+  />
+  <meta
+    property="og:image:alt"
+    content="Kiger - The Intelligence Layer for Global Trade"
+  />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kiger | The Intelligence Layer for Global Trade" />
+  <meta
+    name="twitter:description"
+    content="Build a trusted Golden Record for every cross-border shipment."
+  />
+  <meta
+    name="twitter:image"
+    content="https://obedvega.github.io/tfi-landing-page/kiger-logo.svg"
+  />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#111C2D" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Kiger home">
+        <img src="kiger-logo.svg" alt="Kiger" width="174" height="44" />
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#problem">Problem</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#golden-record">Golden Record</a>
+        <a href="#current-product">MVP</a>
+      </nav>
+
+      <a class="button button-dark button-small nav-demo" href="#request-demo">Request a demo</a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav class="container" aria-label="Mobile navigation">
+        <a href="#problem">Problem</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#golden-record">Golden Record</a>
+        <a href="#current-product">MVP</a>
+        <a class="button button-primary" href="#request-demo">Request a demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Collaborative trade intelligence platform</span>
+          <h1>Connect every trade partner before the shipment moves.</h1>
+          <p class="hero-lead">
+            Kiger gives customs brokers, manufacturers, suppliers, importers, logistics managers, and procurement teams one trusted record for every cross-border shipment. So missing, conflicting, or incomplete documentation can be resolved before the goods move.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#request-demo">Request a demo</a>
+            <a class="button button-secondary" href="#how-it-works">See how it works</a>
+          </div>
+          <div class="hero-notes hero-notes-two">
+            <span><strong>Built for:</strong> customs brokers, manufacturers, suppliers, importers, logistics managers, and procurement teams</span>
+            <span><strong>Starting with:</strong> customs broker collaboration</span>
+          </div>
+        </div>
+
+        <div class="product-preview" aria-label="Kiger shipment review preview">
+          <div class="preview-topbar">
+            <div class="preview-brand"><img src="kiger-icon.svg" alt="" width="24" height="24" /> kiger</div>
+            <span class="pill pill-green">Shipment active</span>
+          </div>
+          <div class="preview-heading">
+            <div>
+              <small>SHIPMENT CRB-1042</small>
+              <h2>Supplier Mexico → Tijuana Plant</h2>
+            </div>
+            <span class="readiness">78% ready</span>
+          </div>
+          <div class="progress"><span></span></div>
+          <div class="preview-grid">
+            <article>
+              <span class="label">Golden Record</span>
+              <h3>Shipment identity</h3>
+              <dl>
+                <div><dt>PO</dt><dd>PO-88041</dd></div>
+                <div><dt>Supplier</dt><dd>Monterrey Components</dd></div>
+                <div><dt>Destination</dt><dd>Tijuana, MX</dd></div>
+                <div><dt>Expected ship date</dt><dd>Jul 29</dd></div>
+              </dl>
+            </article>
+            <article>
+              <span class="label">Exception detected</span>
+              <h3>Quantity mismatch</h3>
+              <div class="exception-box">
+                <div><span>Commercial invoice</span><strong>1,000 units</strong></div>
+                <div><span>Packing list</span><strong>980 units</strong></div>
+              </div>
+              <p class="exception-note">Resolve before goods are shipped.</p>
+            </article>
+          </div>
+          <div class="preview-activity">
+            <span class="activity-dot"></span>
+            <p><strong>Kiger</strong> compared the uploaded documents and routed the discrepancy to the importer for review.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem section" id="problem">
+      <div class="container split-heading">
+        <div>
+          <span class="eyebrow">The problem</span>
+          <h2>A shipment can move before its information is ready.</h2>
+        </div>
+        <p>
+          Purchase orders, invoices, packing lists, origin evidence, classifications, and broker requests are spread across companies, inboxes, PDFs, and spreadsheets. Problems are often discovered after the goods are already moving when they are harder and more expensive to fix.
+        </p>
+      </div>
+
+      <div class="container before-after">
+        <article class="chaos-card">
+          <span class="card-kicker">Without Kiger</span>
+          <h3>Fragmented evidence</h3>
+          <div class="source-list">
+            <span>Email attachments</span>
+            <span>Supplier spreadsheets</span>
+            <span>Broker messages</span>
+            <span>Shared-drive folders</span>
+          </div>
+          <p>No shared status. No clear owner. Errors surface late.</p>
+        </article>
+
+        <div class="flow-arrow" aria-hidden="true">→</div>
+
+        <article class="truth-card">
+          <span class="card-kicker">With Kiger</span>
+          <h3>One trusted shipment record</h3>
+          <ul>
+            <li>One Golden Record</li>
+            <li>One exception queue</li>
+            <li>One controlled workspace</li>
+            <li>One current readiness status</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="how-it-works">
+      <div class="container section-heading">
+        <span class="eyebrow light">How Kiger works</span>
+        <h2>From supplier evidence to a shipment ready for handoff.</h2>
+        <p>The workflow starts before the material ships and becomes more complete as each participant contributes evidence.</p>
+      </div>
+      <div class="container steps">
+        <article>
+          <span class="step-number">01</span>
+          <h3>Create the shipment</h3>
+          <p>The manufacturer or importer creates the shipment from a purchase order or internal reference.</p>
+        </article>
+        <article>
+          <span class="step-number">02</span>
+          <h3>Collect supplier evidence</h3>
+          <p>The supplier uploads invoices, packing lists, origin evidence, and supporting product documents.</p>
+        </article>
+        <article>
+          <span class="step-number">03</span>
+          <h3>Build and review the record</h3>
+          <p>Kiger extracts structured information, compares sources, and routes uncertain or conflicting fields for human review.</p>
+        </article>
+        <article>
+          <span class="step-number">04</span>
+          <h3>Track readiness and exceptions</h3>
+          <p>The importer sees what is complete, what is missing, who must act, and whether the shipment is ready to move forward.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section golden-section" id="golden-record">
+      <div class="container golden-grid">
+        <div>
+          <span class="eyebrow">The Golden Record</span>
+          <h2>Documents are evidence. The shipment is the record.</h2>
+          <p>
+            Kiger turns fragmented evidence into a living, auditable representation of the shipment. Each source keeps its provenance, each conflict remains visible, and every approved change becomes part of the record's history.
+          </p>
+          <div class="principles">
+            <div><strong>Source-backed</strong><span>Every field traces back to evidence.</span></div>
+            <div><strong>Human-controlled</strong><span>Sensitive decisions remain reviewable.</span></div>
+            <div><strong>Continuously enriched</strong><span>The record evolves as partners contribute.</span></div>
+          </div>
+        </div>
+
+        <div class="record-card">
+          <div class="record-card-header">
+            <div>
+              <span class="label">Golden Record</span>
+              <h3>Shipment CRB-1042</h3>
+              <small>Last updated 18 minutes ago</small>
+            </div>
+            <span class="pill pill-amber">Needs review</span>
+          </div>
+          <div class="record-row"><span>Shipment identity</span><strong>Complete</strong></div>
+          <div class="record-row"><span>Commercial documents</span><strong>2 of 3 verified</strong></div>
+          <div class="record-row"><span>Origin evidence</span><strong>Supplier action</strong></div>
+          <div class="record-row"><span>Classification</span><strong>Broker review</strong></div>
+          <div class="record-row"><span>Shipment readiness</span><strong>78%</strong></div>
+          <div class="record-footer"><span>Importer</span><span>Supplier</span><span>Broker</span><span>Kiger</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mvp-section" id="current-product">
+      <div class="container mvp-grid">
+        <div class="section-heading compact">
+          <span class="eyebrow">MVP</span>
+          <h2>Reduce customs broker workload through collaborative document review.</h2>
+          <p>
+            Kiger brings each shipment, its supporting evidence, and its open exceptions into one controlled workspace. Teams can see what is complete, what conflicts, and who needs to act next.
+          </p>
+          <div class="current-capabilities">
+            <div><strong>Create a shared shipment workspace</strong><span>Organize the importer, supplier, documents, and review activity around one shipment.</span></div>
+            <div><strong>Find missing or conflicting information</strong><span>Compare submitted evidence and route exceptions to the right party for review.</span></div>
+            <div><strong>Track readiness before handoff</strong><span>Know whether the shipment file is complete enough to move to the next trade partner.</span></div>
+          </div>
+          <p class="scope-note"><strong>Long-term direction:</strong> a shared operating system for cross-border trade. <strong>Starting point:</strong> prevent documentation and compliance problems before goods move.</p>
+        </div>
+
+        <div class="demo-card" id="request-demo">
+          <span class="eyebrow light">Private product demo</span>
+          <h3>See the current shipment workflow.</h3>
+          <p>We are sharing the product through private demos with manufacturers, importers, brokers, and other trade professionals.</p>
+          <div class="demo-points">
+            <span>Shipment creation and document collection</span>
+            <span>Structured review and exception handling</span>
+            <span>Golden Record and file-close workflow</span>
+          </div>
+          <a class="button button-light full-width" href="mailto:burtonbennett@outlook.com?subject=Kiger%20private%20demo%20request">Request demo access →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container closing-card">
+        <span class="eyebrow light">See Kiger in action</span>
+        <h2>Get the shipment information right before the shipment moves.</h2>
+        <p>Request a private walkthrough of the current product and see how Kiger turns fragmented shipment evidence into a trusted, reviewable record.</p>
+        <a class="button button-light" href="#request-demo">Request a demo</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand" href="#top" aria-label="Kiger home"><img src="kiger-logo.svg" alt="Kiger" width="150" height="38" /></a>
+      <p>The trusted record for cross-border shipments.</p>
+      <span>© 2026 Kiger</span>
+    </div>
+  </footer>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('#mobile-menu');
+
+    function setMenu(open) {
+      menuToggle.setAttribute('aria-expanded', String(open));
+      menuToggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      mobileMenu.hidden = !open;
+      document.body.classList.toggle('menu-open', open);
+    }
+
+    menuToggle.addEventListener('click', () => {
+      setMenu(menuToggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => setMenu(false));
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 1040) setMenu(false);
+    });
+  </script>
+</body>
+</html>
