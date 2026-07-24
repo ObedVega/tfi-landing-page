@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 128">
+  <g>
+    <path fill="#315EFB" d="M24 24h44v12H36v32H24z"/>
+    <path fill="#111C2D" d="M68 24h36v44H92V36H68z"/>
+    <path fill="#111C2D" d="M24 68h12v24h32v12H24z"/>
+    <path fill="#111C2D" d="M92 68h12v36H68V92h24z"/>
+  </g>
+
+  <text
+      x="150"
+      y="92"
+      font-family="Inter, Arial, Helvetica, sans-serif"
+      font-size="74"
+      font-weight="700"
+      fill="#111C2D">kiger</text>
+</svg>
