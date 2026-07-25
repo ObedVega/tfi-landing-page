@@ -280,3 +280,90 @@ body.menu-open { overflow: hidden; }
   .pill { padding: 5px 8px; }
   .record-card-header { flex-direction: column; }
 }
+
+.demo-form{
+
+display:grid;
+gap:14px;
+margin-top:28px;
+
+}
+
+.demo-form input,
+.demo-form select,
+.demo-form textarea{
+
+width:100%;
+padding:15px 16px;
+
+border:1px solid rgba(255,255,255,.15);
+
+background:rgba(255,255,255,.08);
+
+color:#fff;
+
+border-radius:12px;
+
+font-size:.95rem;
+
+font-family:inherit;
+
+outline:none;
+
+transition:.2s;
+
+}
+
+.demo-form input::placeholder,
+.demo-form textarea::placeholder{
+
+color:#aeb9c7;
+
+}
+
+.demo-form select{
+
+appearance:none;
+
+cursor:pointer;
+
+}
+
+.demo-form option{
+
+color:#111;
+
+}
+
+.demo-form textarea{
+
+resize:vertical;
+min-height:120px;
+
+}
+
+.demo-form input:focus,
+.demo-form select:focus,
+.demo-form textarea:focus{
+
+border-color:#5f8cff;
+
+background:rgba(255,255,255,.12);
+
+}
+
+.demo-success{
+
+margin-top:18px;
+
+padding:14px;
+
+border-radius:12px;
+
+background:#dff6eb;
+
+color:#126c49;
+
+font-weight:600;
+
+}
