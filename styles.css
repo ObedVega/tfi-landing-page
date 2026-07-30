@@ -133,6 +133,18 @@ dd { font-weight: 700; text-align: right; }
 .steps h3 { margin: 82px 0 12px; font-size: 1.15rem; letter-spacing: -.03em; }
 .steps p { margin: 0; color: #aab5c4; font-size: .9rem; line-height: 1.65; }
 
+.steps-5 { grid-template-columns: repeat(5, 1fr); }
+
+@media (max-width: 1040px) {
+  .steps-5 { grid-template-columns: repeat(2, 1fr); }
+  .steps-5 article:last-child { grid-column: 1 / -1; }
+}
+
+@media (max-width: 720px) {
+  .steps-5 { grid-template-columns: 1fr; }
+  .steps-5 article:last-child { grid-column: auto; }
+}
+
 .golden-section { background: white; }
 .golden-grid { display: grid; grid-template-columns: 1fr .9fr; align-items: center; gap: 80px; }
 .golden-grid > div > p { margin-top: 24px; }
